@@ -1,0 +1,54 @@
+.details {
+    background: #f0f0f0;
+    padding: 40px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-details {
+    background: linear-gradient(145deg, #ffcb05, #3d7dca);
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .card-details h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card-details img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-details img:hover {
+    transform: scale(1.1);
+  }
+  
+  .details-info p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .details-info p:first-child {
+    font-weight: bold;
+  }
+  
+  .loading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3d7dca;
+  }
+  
